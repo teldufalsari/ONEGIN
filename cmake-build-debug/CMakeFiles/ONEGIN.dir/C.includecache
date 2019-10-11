@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Yngeborga/CLionProjects/ONEGIN/main.c
+stdio.h
+-
+stdlib.h
+-
+sys/stat.h
+-
+string.h
+-
+locale.h
+-
+ctype.h
+-
+
