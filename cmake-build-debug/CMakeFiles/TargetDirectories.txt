@@ -1,3 +1,3 @@
-C:/Users/Yngeborga/CLionProjects/To_sort_and_to_select/cmake-build-debug/CMakeFiles/To_sort_and_to_select.dir
-C:/Users/Yngeborga/CLionProjects/To_sort_and_to_select/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Yngeborga/CLionProjects/To_sort_and_to_select/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Yngeborga/CLionProjects/ONEGIN/cmake-build-debug/CMakeFiles/ONEGIN.dir
+C:/Users/Yngeborga/CLionProjects/ONEGIN/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Yngeborga/CLionProjects/ONEGIN/cmake-build-debug/CMakeFiles/rebuild_cache.dir

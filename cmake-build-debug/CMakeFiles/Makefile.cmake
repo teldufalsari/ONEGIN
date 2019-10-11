@@ -107,5 +107,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/To_sort_and_to_select.dir/DependInfo.cmake"
+  "CMakeFiles/ONEGIN.dir/DependInfo.cmake"
   )

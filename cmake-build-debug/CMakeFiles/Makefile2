@@ -58,45 +58,45 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Yngeborga\CLionProjects\To_sort_and_to_select
+CMAKE_SOURCE_DIR = C:\Users\Yngeborga\CLionProjects\ONEGIN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Yngeborga\CLionProjects\To_sort_and_to_select\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Yngeborga\CLionProjects\ONEGIN\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/To_sort_and_to_select.dir
+# Target rules for target CMakeFiles/ONEGIN.dir
 
 # All Build rule for target.
-CMakeFiles/To_sort_and_to_select.dir/all:
-	$(MAKE) -f CMakeFiles\To_sort_and_to_select.dir\build.make CMakeFiles/To_sort_and_to_select.dir/depend
-	$(MAKE) -f CMakeFiles\To_sort_and_to_select.dir\build.make CMakeFiles/To_sort_and_to_select.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Yngeborga\CLionProjects\To_sort_and_to_select\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target To_sort_and_to_select"
-.PHONY : CMakeFiles/To_sort_and_to_select.dir/all
+CMakeFiles/ONEGIN.dir/all:
+	$(MAKE) -f CMakeFiles\ONEGIN.dir\build.make CMakeFiles/ONEGIN.dir/depend
+	$(MAKE) -f CMakeFiles\ONEGIN.dir\build.make CMakeFiles/ONEGIN.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Yngeborga\CLionProjects\ONEGIN\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target ONEGIN"
+.PHONY : CMakeFiles/ONEGIN.dir/all
 
 # Include target in all.
-all: CMakeFiles/To_sort_and_to_select.dir/all
+all: CMakeFiles/ONEGIN.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/To_sort_and_to_select.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yngeborga\CLionProjects\To_sort_and_to_select\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/To_sort_and_to_select.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yngeborga\CLionProjects\To_sort_and_to_select\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/To_sort_and_to_select.dir/rule
+CMakeFiles/ONEGIN.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yngeborga\CLionProjects\ONEGIN\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ONEGIN.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yngeborga\CLionProjects\ONEGIN\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ONEGIN.dir/rule
 
 # Convenience name for target.
-To_sort_and_to_select: CMakeFiles/To_sort_and_to_select.dir/rule
+ONEGIN: CMakeFiles/ONEGIN.dir/rule
 
-.PHONY : To_sort_and_to_select
-
-# clean rule for target.
-CMakeFiles/To_sort_and_to_select.dir/clean:
-	$(MAKE) -f CMakeFiles\To_sort_and_to_select.dir\build.make CMakeFiles/To_sort_and_to_select.dir/clean
-.PHONY : CMakeFiles/To_sort_and_to_select.dir/clean
+.PHONY : ONEGIN
 
 # clean rule for target.
-clean: CMakeFiles/To_sort_and_to_select.dir/clean
+CMakeFiles/ONEGIN.dir/clean:
+	$(MAKE) -f CMakeFiles\ONEGIN.dir\build.make CMakeFiles/ONEGIN.dir/clean
+.PHONY : CMakeFiles/ONEGIN.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ONEGIN.dir/clean
 
 .PHONY : clean
 

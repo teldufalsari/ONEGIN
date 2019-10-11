@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Yngeborga\CLionProjects\To_sort_and_to_select
+CMAKE_SOURCE_DIR = C:\Users\Yngeborga\CLionProjects\ONEGIN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Yngeborga\CLionProjects\To_sort_and_to_select\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Yngeborga\CLionProjects\ONEGIN\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yngeborga\CLionProjects\To_sort_and_to_select\cmake-build-debug\CMakeFiles C:\Users\Yngeborga\CLionProjects\To_sort_and_to_select\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yngeborga\CLionProjects\ONEGIN\cmake-build-debug\CMakeFiles C:\Users\Yngeborga\CLionProjects\ONEGIN\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yngeborga\CLionProjects\To_sort_and_to_select\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Yngeborga\CLionProjects\ONEGIN\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named To_sort_and_to_select
+# Target rules for targets named ONEGIN
 
 # Build rule for target.
-To_sort_and_to_select: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 To_sort_and_to_select
-.PHONY : To_sort_and_to_select
+ONEGIN: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ONEGIN
+.PHONY : ONEGIN
 
 # fast build rule for target.
-To_sort_and_to_select/fast:
-	$(MAKE) -f CMakeFiles\To_sort_and_to_select.dir\build.make CMakeFiles/To_sort_and_to_select.dir/build
-.PHONY : To_sort_and_to_select/fast
+ONEGIN/fast:
+	$(MAKE) -f CMakeFiles\ONEGIN.dir\build.make CMakeFiles/ONEGIN.dir/build
+.PHONY : ONEGIN/fast
 
 main.obj: main.c.obj
 
@@ -128,7 +128,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\To_sort_and_to_select.dir\build.make CMakeFiles/To_sort_and_to_select.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\ONEGIN.dir\build.make CMakeFiles/ONEGIN.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -137,7 +137,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\To_sort_and_to_select.dir\build.make CMakeFiles/To_sort_and_to_select.dir/main.c.i
+	$(MAKE) -f CMakeFiles\ONEGIN.dir\build.make CMakeFiles/ONEGIN.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -146,7 +146,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\To_sort_and_to_select.dir\build.make CMakeFiles/To_sort_and_to_select.dir/main.c.s
+	$(MAKE) -f CMakeFiles\ONEGIN.dir\build.make CMakeFiles/ONEGIN.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -155,7 +155,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... To_sort_and_to_select
+	@echo ... ONEGIN
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main.obj
